@@ -1,0 +1,14 @@
+language: java
+
+sudo: required
+
+services:
+  - docker
+
+script:
+  - make build-jenkins
+  - make run-jenkins
+  - sleep 10
+  - make stop-jenkins
+  - make clean-jenkins
+  - make clean-jenkins-data
