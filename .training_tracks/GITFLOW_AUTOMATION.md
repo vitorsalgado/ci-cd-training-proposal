@@ -12,3 +12,4 @@ Check the Goal section for more details about what is expected.
 - Continuous Integration;
 - Continuous Delivery to any cloud solution;
 - Pipeline with quality assurance steps;
+- Containerized application.
