@@ -1,10 +1,9 @@
-ctx := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 jenkins := jenkins-devops
 data := jenkins-devops-data
 log := jenkins-devops-log
 
 build-jenkins:
-	@docker build -t $(jenkins) $(ctx)
+	@docker build -t $(jenkins) .
 create-data:
 	@docker volume create $(log)
 	@docker volume create $(data)
