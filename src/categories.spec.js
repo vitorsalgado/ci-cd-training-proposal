@@ -4,13 +4,12 @@ const Request = require('supertest')
 const Server = require('./server')
 
 describe('Categories', () => {
+  beforeAll(() => Server.start())
 
-	beforeAll(() => Server.start())
+  afterAll(() => Server.stop())
 
-	afterAll(() => Server.stop())
-
-	it('it should return 200 (OK)', () =>
-		Request(Server.listener())
-			.get('/categories')
-			.expect(200))
+  it('it should return 200 (OK)', () =>
+    Request(Server.listener())
+      .get('/categories')
+      .expect(200))
 })

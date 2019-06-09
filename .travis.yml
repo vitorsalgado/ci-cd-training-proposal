@@ -2,13 +2,21 @@ language: node_js
 
 sudo: required
 
+cache: npm
+
 services:
   - docker
 
 script:
+  - npm test
+
+  - cd .jenkins
+
   - make build-jenkins
   - make run-jenkins
+
   - sleep 3
+
   - make stop-jenkins
   - make clean-jenkins
   - make clean-jenkins-data

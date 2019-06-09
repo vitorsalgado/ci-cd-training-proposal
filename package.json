@@ -7,7 +7,8 @@
 		"start": "node index",
 		"start:docker": "pm2-docker index.config.js --no-daemon",
 		"start:dev": "nodemon",
-		"test": "jest"
+		"test": "jest",
+		"lint": "eslint ."
 	},
 	"private": true,
 	"author": "@vitorsalgado",
@@ -22,6 +23,12 @@
 		"vision": "^5.4.4"
 	},
 	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.17.3",
+		"eslint-plugin-node": "^9.1.0",
+		"eslint-plugin-promise": "^4.1.1",
+		"eslint-plugin-standard": "^4.0.0",
 		"jest": "^24.8.0",
 		"nodemon": "^1.18.11",
 		"supertest": "^4.0.2"
