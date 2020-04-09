@@ -1,19 +1,25 @@
-# Ci & Cd Training
+<a href="https://trello.com/b/ce1BS8Oh"><img src=".github/logo.png" width="180px" align="right" /></a>
+
+# CI / CD Training
 [![Build Status](https://travis-ci.org/vitorsalgado/ci-cd-training-proposal.svg?branch=master)](https://travis-ci.org/vitorsalgado/ci-cd-training-proposal)  
 
-Repository dedicated for continuous integration and continuous delivery training.
-
-## Basic Requirements
-- [Jenkins](https://jenkins.io/)
-- [Docker](https://docs.docker.com/)
-- Any IDE or Text Editor
-
-> Other requirements may apply for some trainings and/or depending of your solution.
+This repository is dedicated to facilitate practicing continuous integration and deployment. 
+It comes with scripts to easily setup a **Jenkins** locally with Docker and simple applications **already develop**. 
+This way, you can focus on just pipeline automations :)  
+I recommend you to use this [Trello](https://trello.com/b/ce1BS8Oh) to guide you through your training. 
+This repository also contains a [Github* Project](https://github.com/vitorsalgado/ci-cd-training/projects/2) and [Issues](https://github.com/vitorsalgado/ci-cd-training/issues) to guide you in more practical activities.
 
 ## How To
 
 ### Starting
 First, **Fork** this repository. This way, you can connect any automation tool with your own repository.  
+
+### Basic Requirements
+- [Jenkins](https://jenkins.io/)
+- [Docker](https://docs.docker.com/)
+- Any IDE or Text Editor
+
+> Other requirements may apply for some trainings and/or depending of your solution.
 
 ### Traininig Application
 This repository contains a simple **Node.js** application which we will use to develop the proposed integrations. 
