@@ -1,7 +1,7 @@
 {
-	"name": "devops-training-api",
+	"name": "ci-cd-training-api",
 	"version": "1.0.0",
-	"description": "Simple API dedicated to DevOps training",
+	"description": "Simple API dedicated to CI/CD training",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index",
