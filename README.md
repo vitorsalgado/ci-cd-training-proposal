@@ -7,7 +7,7 @@ This repository is dedicated to facilitate practicing continuous integration and
 It comes with scripts to easily setup a **Jenkins** locally with Docker and simple applications **already develop**. 
 This way, you can focus on just pipeline automations :)  
 I recommend you to use this [Trello](https://trello.com/b/ce1BS8Oh) to guide you through your training. 
-This repository also contains a [Github* Project](https://github.com/vitorsalgado/ci-cd-training/projects/2) and [Issues](https://github.com/vitorsalgado/ci-cd-training/issues) to guide you in more practical activities.
+This repository also contains a [Github Project](https://github.com/vitorsalgado/ci-cd-training/projects/2) and [Issues](https://github.com/vitorsalgado/ci-cd-training/issues) to guide you in more practical activities.
 
 ## How To
 
