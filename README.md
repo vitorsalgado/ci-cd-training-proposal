@@ -4,8 +4,8 @@
 [![Build Status](https://travis-ci.org/vitorsalgado/ci-cd-training-proposal.svg?branch=master)](https://travis-ci.org/vitorsalgado/ci-cd-training-proposal)  
 
 This repository is dedicated to facilitate practicing continuous integration and deployment. 
-It comes with scripts to easily setup a **Jenkins** locally with Docker and simple applications **already develop**. 
-This way, you can focus on just pipeline automations :)  
+It comes with scripts to easily setup a **Jenkins** locally with Docker and a simple applications **already developed**. 
+This way, you can focus in the automation.  
 I recommend you to use this [Trello](https://trello.com/b/ce1BS8Oh) to guide you through your training. 
 This repository also contains a [Github Project](https://github.com/vitorsalgado/ci-cd-training/projects/2) and [Issues](https://github.com/vitorsalgado/ci-cd-training/issues) to guide you in more practical activities.
 
@@ -22,11 +22,10 @@ First, **Fork** this repository. This way, you can connect any automation tool w
 > Other requirements may apply for some trainings and/or depending of your solution.
 
 ### Traininig Application
-This repository contains a simple **Node.js** application which we will use to develop the proposed integrations. 
-Sometimes, you may need to perform some configuration changes in this application to achieve the some training goals. For these cases, you don't need advanced **Node.js** knowledge.  
+This repository contains a simple **Node.js** application which we will use to develop the proposed integrations.
 
 ### Jenkins
-We propose the use of **Jenkins** as the automation tool, but you are free to use other similar tools.  
+We propose the use of **Jenkins** as the automation tool, but you are free to use any other similar tools.  
 This repository contains scripts to facilitate the deployment of a **local Jenkins**. The default **Port** for Jenkins is **8080**. You can change this in this [Makefile](./.jenkins/Makefile).
 These scripts won't work in **Windows**. In this case, you will need to install it manually.  
 To execute a Jenkins in your local development environment, navigate to the folder **.jenkins** and execute the following commands:  
